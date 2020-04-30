@@ -1,0 +1,12 @@
+.DataViewer{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.curve:hover{
+    stroke-width: 5px;
+    stroke: green;
+}
+.bar{
+    border: 1px solid red;
+}

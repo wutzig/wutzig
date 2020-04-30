@@ -1,0 +1,37 @@
+.LogIn{
+    display: grid;
+    grid-gap: 30px 10px;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 20px;
+    width: 310px;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid rgb(210, 210, 210);
+    box-shadow: rgb(210, 210, 210) 5px 5px 4px;
+    border-radius: 10px;
+    padding: 30px 40px 40px 20px;
+}
+.LogIn button:last-child(){
+    grid-row: -1;
+}
+.Userinfo{
+    text-align: right;
+    font-weight: bold;
+}
+.Message{
+    text-align: right;
+    color: orange;
+    font-style: italic;
+    font-size: small;
+}
+.LogIn input{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px;
+}
+.Submit{
+    grid-column: 2;
+    justify-self: right;
+    margin-right: 0;
+    width: 60px;
+}

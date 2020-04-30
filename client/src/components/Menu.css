@@ -1,0 +1,34 @@
+.menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.menuItem {
+    background-color: rgb(210, 210, 210);
+    height: 100%;
+    width: 25%;
+    margin: 0 2px;
+    line-height: 45px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+.menuText{
+    display: inline-block;
+    height: 32px;
+}
+.menuItem:hover {
+    cursor: pointer;
+    background-color: rgb(180, 180, 180);
+}
+.menuItem:hover .menuText{
+    border-bottom: solid 1px;
+}
+.active{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+.active:hover{
+    background-color: rgb(80, 80, 80);
+}

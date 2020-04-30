@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+html {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+}
+.App {
+  text-align: center;
+  font-family: Roboto, serif;
+}
+button, input[type=submit]{
+  outline: none;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: rgb(210, 210, 210) 3px 3px 2px;
+  border-radius: 5px;
+  width: 30px;
+  margin-right: 10px;
+  min-width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  transform: translate(-3px, -3px);
+  -moz-transition: all 0.05s ease-out;
+  -o-transition: all 0.05s ease-out;
+  -webkit-transition: all 0.05s ease-out;
+  transition: all 0.05s ease-out;
+}
+button:hover{
+  box-shadow:3px 3px 10px rgb(220, 170, 100);
+  border-color: rgb(220, 190, 170);
+}
+button:active{
+  box-shadow:0px 0px 5px rgb(220, 170, 100);
+  transform: translate(0px, 0px);
+}
+button:disabled{
+  box-shadow: 0 0;
+  border-color: rgb(210, 210, 210);
+  cursor: default;
+}
+input{
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  outline: none; 
+}
+.Rect{
+  width: auto;
+}
+.TitleBar{
+  display: flex;
+  justify-content: space-between;
+}
+.LeftInfo{
+  width: 20%;;
+}
+.InfoBar{
+  width: 20%;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.Title{
+  width: auto;
+  text-align: center;
+}
+.Access{
+  text-align: right;
+  margin-right: 15px;
+}

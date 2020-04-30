@@ -1,0 +1,27 @@
+#Dashboard{
+    position: relative;
+    margin: 20px auto;
+    width: 1200px;
+}
+#Tiles{
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: min-content(600px);
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(6, 100px);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+.Tile{
+    background-color: red;
+    justify-self: center;
+    align-self: center;
+    opacity: 0.06;
+    border-radius: 10px;
+    width: 95%;
+    height: 95%;
+}
+input{
+    margin-top: 10px;
+}
